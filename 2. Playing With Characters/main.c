@@ -6,7 +6,7 @@ int main()
 {
     char s[100];
 
-    scanf("%c", &s[0]);
+    scanf("%c", &s[0]); // s[0] = getchar(); // also works
     printf("%c\n", s[0]);
 
     scanf("%s", s);
